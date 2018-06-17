@@ -16,7 +16,7 @@ const Header = (props) => {
 const styles = {
     textStyle: {
         fontSize: 20,
-        color: 'white',
+        color: '#333',
         fontWeight: 'bold',
         fontFamily: 'Droid Sans'
     },
@@ -25,15 +25,12 @@ const styles = {
         justifyContent: 'center',
         alignItems: 'center',
         height: 60,
-        shadowColor: '#000',
+        shadowColor: '#000000',
         shadowOffset: { width: 0, height: 2 },
         shadowOpacity: 0.2,
         elevation: 2,
         position: 'relative',
         marginBottom: 15
-
-
-
     }
 };
 

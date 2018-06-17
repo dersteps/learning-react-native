@@ -1,13 +1,3 @@
-/*import { AppRegistry } from 'react-native';
-import App from './App';
-
-AppRegistry.registerComponent('albums', () => App);
-*/
-
-// We need React and React Native to build components
-//import React from 'react';
-//import ReactNative from 'react-native';
-
 import React from 'react';
 import { AppRegistry, View } from 'react-native';
 
@@ -16,8 +6,8 @@ import AlbumList from './src/components/albumlist';
 
 // Build component now
 const App = () => (
-    <View>
-        <Header text={'Albums - Hell yeah!'} />
+    <View style={{ flex: 1 }}>
+        <Header text={'Albums - Hell yeah - iOS!'} />
         <AlbumList />
     </View>
 );
